@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Anurag — Hobbies</title>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" class="brand">Anurag</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="chess.html">Chess</a>
+            <a href="hobbies.html">Hobbies</a>
+            <button id="theme-toggle" onclick="toggleTheme()">Dark</button>
+        </nav>
+
+        <div class="container">
+            <div class="hero">
+                <h1>Hobbies</h1>
+                <p class="subtitle">What I do outside of school.</p>
+            </div>
+
+            <section>
+                <h3>Cooking</h3>
+                <p>I enjoy cooking at home — everything from simple weekday meals to more involved recipes. One of my favorite things to make is pancakes. I've even tried making them without eggs!</p>
+                <ul>
+                    <li>Pancakes (classic and eggless)</li>
+                    <li>Pasta dishes</li>
+                    <li>Fried rice</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Other interests</h3>
+                <div class="card-grid">
+                    <div class="card">
+                        <h2>Chess</h2>
+                        <p>Strategy, pattern recognition, and endless learning. See my <a href="chess.html">chess page</a> for more.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Reading</h2>
+                        <p>I like reading about science, history, and anything that explains how the world works.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Recipe randomizer</h3>
+                <p>Can't decide what to cook? Click the button for a random idea.</p>
+                <div class="card">
+                    <p id="recipe-output" style="font-style: italic; color: #555; margin-bottom: 1rem;">Press the button to get a suggestion.</p>
+                    <button class="btn" onclick="randomRecipe()">Suggest a recipe</button>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            &copy; 2025 Anurag. Built for CS50.
+        </footer>
+
+        <script>
+            function toggleTheme() {
+                document.body.classList.toggle('dark');
+                const btn = document.getElementById('theme-toggle');
+                btn.textContent = document.body.classList.contains('dark') ? 'Light' : 'Dark';
+            }
+
+            const recipes = [
+                'Eggless pancakes with maple syrup',
+                'Garlic butter pasta',
+                'Vegetable fried rice',
+                'Tomato soup with toast',
+                'Avocado toast with lemon',
+                'Overnight oats with fruit',
+                'Grilled cheese sandwich'
+            ];
+
+            function randomRecipe() {
+                const output = document.getElementById('recipe-output');
+                const pick = recipes[Math.floor(Math.random() * recipes.length)];
+                output.textContent = '→ ' + pick;
+            }
+        </script>
+    </body>
+</html>

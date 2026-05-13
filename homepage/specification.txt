@@ -1,0 +1,51 @@
+HTML Tags Used (10 distinct, excluding html/head/body/title):
+1. meta       - sets character encoding and viewport
+2. link       - loads Bootstrap and styles.css
+3. script     - loads jQuery, Bootstrap JS, and custom JavaScript
+4. nav        - site navigation bar
+5. a          - hyperlinks between pages and external content
+6. button     - theme toggle and interactive quiz/randomizer buttons
+7. div        - layout containers (container, hero, card, card-grid)
+8. h1         - page titles
+9. h2         - section/card headings
+10. h3        - small uppercase section labels
+11. p         - body paragraphs
+12. section   - groups of related content
+13. table     - structured data on the About page
+14. thead     - table header group
+15. tbody     - table body group
+16. tr        - table rows
+17. th        - table header cells
+18. td        - table data cells
+19. ul        - unordered list of cooking interests
+20. li        - individual list items
+21. span      - inline tags/chips on the About page
+22. strong    - bold text in quiz question
+23. footer    - page footer
+
+CSS Properties Used (5 distinct):
+1. font-family      - sets typeface (Georgia, Helvetica Neue)
+2. color            - text and element colors
+3. background-color - backgrounds for body, nav, cards, tags
+4. display          - flex and grid layouts
+5. border           - borders on nav, cards, footer, table cells
+6. margin           - spacing between elements
+7. padding          - internal spacing for containers and components
+8. font-size        - text sizing throughout
+9. letter-spacing   - spaced-out uppercase labels
+10. text-transform  - uppercase section headings
+11. border-radius   - rounded corners on cards, tags, buttons
+12. transition      - smooth hover color change on links/buttons
+13. gap             - spacing in flex/grid layouts
+14. max-width       - constrains content width on wide screens
+15. text-align      - center-aligned footer
+
+JavaScript Usage:
+- Dark/light mode toggle: clicking the "Dark" button adds/removes a "dark" class on the body, switching the entire color scheme.
+- Chess quiz (chess.html): clicking an answer disables all buttons and shows a correct/incorrect result message.
+- Recipe randomizer (hobbies.html): clicking a button picks a random recipe from a list and displays it.
+
+Bootstrap Usage:
+- Bootstrap 4.5.3 CSS and JS bundle loaded via CDN on all pages.
+- Bootstrap's responsive grid and reset styles provide the base layout foundation.
+- Bootstrap classes supplement the custom styles.css for consistent cross-browser behavior.

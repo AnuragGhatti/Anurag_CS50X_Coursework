@@ -1,0 +1,15 @@
+If the file **songs.db** holds the top 100 songs from one listener in 2018,
+their audio aura could be described by looking at the overall sound and feel of those tracks.
+For example, if most of the songs are upbeat pop or hip-hop with fast tempos and strong rhythms,
+their aura might come across as energetic, outgoing, and fun. If the songs are slower, more acoustic,
+or in minor keys, it might suggest a calmer, more thoughtful, or emotional vibe.
+In short, their audio aura would capture the general mood and personality of the
+music they connected with most that year.
+
+Still, using just one year’s top 100 songs isn’t the best way to understand someone’s musical identity.
+A person’s taste changes over time, and the songs they listened to most in 2018 might reflect
+a specific phase in their life or whatever was popular then. It also doesn’t account for what they
+listened to on other platforms or in different settings. A better way to capture their true audio aura
+would be to look at several years of listening history, include data from multiple sources,
+and pay attention to how their listening habits shift across moods, seasons, or activities.
+That would give a more complete and accurate picture of their musical personality.

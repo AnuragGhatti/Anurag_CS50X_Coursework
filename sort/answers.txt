@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: I know this because this sorting algorithm was the slowest of them all, usually pointing to the Bubble Sort Algorithm.
+
+sort2 uses: Merge Sort
+
+How do you know?: I know this because this sorting algorithm was much more efficient compared to them all, usually meaning that this is a Merge Sort Algorithm.
+
+sort3 uses: Selection Sort
+
+How do you know?: I know this because this was not significantly faster than the Bubble Sort Algorithm, but it was not close to the Merge Sort algorithm, meaning it was a Selection Sort Algorithm.
